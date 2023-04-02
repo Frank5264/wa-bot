@@ -1,7 +1,7 @@
 FROM python:3.9
 RUN set -ex; \
     apt-get update; \
-    apt-get install -y ffmpeg wkhtmltopdf tesseract-ocr-ind libleptonica-dev python3.9 libtesseract-dev libwebp6 libwebp-dev libwebpdemux2 libwebpmux3 pyzbar wget unzip iputils-ping python3-pip webp iputils-ping jp2a 
+    apt-get install -y ffmpeg wkhtmltopdf tesseract-ocr-ind libleptonica-dev python3.9 libtesseract-dev libwebp6 libwebp-dev libwebpdemux2 libwebpmux3 libzbar0 wget unzip iputils-ping python3-pip webp iputils-ping jp2a 
 RUN wget --no-check-certificate https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
     && dpkg -i google-chrome-stable_current_amd64.deb || apt -y -f install
 #ttyd requirements
