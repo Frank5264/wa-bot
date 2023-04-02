@@ -28,7 +28,8 @@ googletrans==3.0.0
 gTTS
 h11==0.9.0
 h2==3.2.0
-h5py==2.10.0
+versioned-hdf5
+h5py==2.8.0
 hpack==3.0.0
 html-text==0.5.2
 idna==2.10
